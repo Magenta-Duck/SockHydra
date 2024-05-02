@@ -1,0 +1,23 @@
+{
+  "name": "sockhydra",
+  "version": "1.0.0",
+  "description": "Socket hub for the SockCam and related applications.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Magenta-Duck/SockHydra.git"
+  },
+  "author": "Andy Freeborough <andy@freeborough.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Magenta-Duck/SockHydra/issues"
+  },
+  "homepage": "https://github.com/Magenta-Duck/SockHydra#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
