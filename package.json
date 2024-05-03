@@ -4,7 +4,8 @@
   "description": "Socket hub for the SockCam and related applications.",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/server.ts"
+    "start-dev": "ts-node src/server.ts",
+    "start-test-sockcam": "ts-node src/test-sockcam.ts"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,12 @@
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/uuid": "^9.0.8",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "uuid": "^9.0.1"
   }
 }
